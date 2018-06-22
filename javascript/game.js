@@ -36,7 +36,7 @@ $('.crystal-button').on('click', function(){
 		setTimeout(function(){
 			alert("you lost");
 		}, 100)
-		
+		//comment
 	}
 	if(startingNumber==goalNumber) {
 		winNumber++;
