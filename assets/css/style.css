@@ -1,0 +1,82 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvBMhd_sctG2FTnmc5tFuCv2MIyw6f0S3f5wBQKRJh9SNZ1zp");
+		/*("https://69445235844b78bbd4c8-40765e7850b487e7db6d0b1ca2adcee0.ssl.cf3.rackcdn.com/_assets/images/cache/productcatalogue/productthumbnail/HLUT111722_zoom.jpg");*/
+}
+h1 {
+		background-color: orange;
+		width: 300px;
+		height: 75px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 5px
+		border: solid 1px;
+		text-align: center;
+		clear: both;
+		font-weight: 40px;
+		font-size: 25px;
+
+	}
+
+img{
+		width: 50px;
+		height: 50px;
+		padding-right: 20px;
+	}
+
+#instructions {
+	background-color: #ffffcc;
+	color: green;
+	width: 400px;
+	height: 300px;
+	font-size: bold;
+	font-weight: 35px;
+	margin-bottom: 20px;
+}	
+
+#random {
+		background-color: green;
+		width: 150px;
+		height:85px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 25px;
+		font-weight: 15px;
+
+	}
+
+#counter {
+		background-color: aqua;
+		width: 75px;
+		height:85px;
+		padding: 15px 20px 10px 15px;
+	 	margin-top: 20px;
+		margin-left: 20px;
+		/*float: left;
+		clear: both;*/
+
+	}
+
+#crystals-container {
+
+}	
+
+#scorelabel {
+	background-color: #009999;
+	color: white;
+	width: 180px;
+	height:25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#actualscore {
+	background-color: #009999;
+	color: white;
+	width: 180px;
+	height:85px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;	
+
+}
