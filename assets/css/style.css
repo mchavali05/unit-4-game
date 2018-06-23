@@ -2,14 +2,21 @@ body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvBMhd_sctG2FTnmc5tFuCv2MIyw6f0S3f5wBQKRJh9SNZ1zp");
 		/*("https://69445235844b78bbd4c8-40765e7850b487e7db6d0b1ca2adcee0.ssl.cf3.rackcdn.com/_assets/images/cache/productcatalogue/productthumbnail/HLUT111722_zoom.jpg");*/
 }
+
+.container {
+	width: 500px;
+	margin: auto;
+
+}
+
 h1 {
 		background-color: orange;
 		width: 300px;
-		height: 75px;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		padding: 5px
-		border: solid 1px;
+		height: 50px;
+		margin-top: 27px;
+		margin-bottom: 10px;
+		padding: 5px;
+		padding-top: 21px;
 		text-align: center;
 		clear: both;
 		font-weight: 40px;
@@ -18,8 +25,8 @@ h1 {
 	}
 
 img{
-		width: 50px;
-		height: 50px;
+		width: 75px;
+		height: 75px;
 		padding-right: 20px;
 	}
 
@@ -28,17 +35,17 @@ img{
 	color: green;
 	width: 400px;
 	height: 300px;
-	font-size: bold;
-	font-weight: 35px;
-	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
 }	
 
 #random {
 		background-color: green;
 		width: 150px;
 		height:85px;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		font-size: 25px;
 		font-weight: 15px;
 
@@ -46,13 +53,13 @@ img{
 
 #counter {
 		background-color: aqua;
-		width: 75px;
-		height:85px;
+		width: 100px;
+		height:60px;
 		padding: 15px 20px 10px 15px;
-	 	margin-top: 20px;
-		margin-left: 20px;
-		/*float: left;
-		clear: both;*/
+		margin-left: 166px;
+		margin-top: -24px;
+		clear: both;
+		font-size: 18px;
 
 	}
 
@@ -65,8 +72,8 @@ img{
 	color: white;
 	width: 180px;
 	height:25px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 10px;
 }
 
@@ -75,8 +82,10 @@ img{
 	color: white;
 	width: 180px;
 	height:85px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 10px;	
+	font-weight: bold;
+	font-size: 25px;
 
 }

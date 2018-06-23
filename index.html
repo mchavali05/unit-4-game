@@ -7,34 +7,47 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<h1><span>Crystals Collector!<span></h1>
+	<div class="container">
+		<h1><span>Crystals Collector!<span></h1>
 
-	<div id="instructions">
-		<p> You will be given a random number at the start of the game.</p>
-		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-		<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
-		<p>The value of each crystal is hidden from you until you click on it.</p>
-		<p> Each time the game starts, the game will change the values of each crystal.</p>
+		<div id="instructions">
+			<br>
+			<p> You will be given a random number at the start of the game.</p>
+			<br>
+			<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p> Each time the game starts, the game will change the values of each crystal.</p>
+		</div>
+
+		
+		<!-- <div id="starting-number"></div>
+		<div id="goal-number"></div> -->
+		<div id="random">
+			<span id="rand-number">??</span>
+
+			<div id="counter">
+			<p><span id="won-or-lost"></span></p>
+			<p>Wins: <span id="win-number"></span></p> 
+			<p>Losses: <span id="loss-number"></span></p>
+			</div>
+		</div>	
+
+		
+
+		<div id="crystals-container"></div>
+
+		<div id=scorelabel>
+			<p>Your total score is:</p> 
+		</div> 
+		<div id="actualscore">
+			<p><span id="score"></span></p>
+		</div>	
+
 	</div>
-
-	<div id="crystals-container"></div>
-	<!-- <div id="starting-number"></div>
-	<div id="goal-number"></div> -->
-	<div id="random">
-		<p><span id="rand-number"></span></p>  
-	</div>	
-
-	<div id="counter">
-		<p><span id="won-or-lost"></span></p>
-		<p>Wins: <span id="win-number"></span></p> 
-		<p>Losses: <span id="loss-number"></span></p>
-	</div>
-	<div id=scorelabel>
-		<p>Your total score is:</p> 
-	</div> 
-	<div id="actualscore">
-		<p><span id="score"></span></p>
-	</div>	
 
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
